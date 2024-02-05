@@ -59,18 +59,7 @@ html, body {
             hsla(241, 33%, 26%, 0.8)
         )!important;
     }
-    
-    .card-custom .card-custom-image {
-        overflow: hidden;
-    }
-    
-    .card-custom .card-custom-image img {
-        transition: all 0.4s ease;
-    }
-    
-    .card-custom:hover .card-custom-image img {
-        transform: scale(1.5);
-    }
+
 
 .rounded-input {
     border-radius: 8px; 
