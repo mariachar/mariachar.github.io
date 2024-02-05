@@ -1,13 +1,96 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+.bg-purple {
+    background-color: purple; 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@layer base {
+    body {
+        @apply font-['BaiJamjuree'];
+    }
+    li {
+        @apply px-4;
+        @apply cursor-pointer;
+    }
 }
+
+.fill-effect {
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+    }
+
+    .fill-effect::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 100%;
+        bottom: 0;
+        left: 0;
+        background-color: #800080; 
+        transition: right 0.5s ease-in-out;
+        z-index: -1;
+    }
+
+    .fill-effect:hover::after {
+        right: 0;
+    }
+
+    .content-div {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 250px;
+    }
+
+    .content-div:hover {
+        background-image: linear-gradient(
+            to right,
+            rgba(103, 144, 235, 0.8),
+            hsla(241, 33%, 26%, 0.8)
+        )!important;
+    }
+    
+    .card-custom .card-custom-image {
+        overflow: hidden;
+    }
+    
+    .card-custom .card-custom-image img {
+        transition: all 0.4s ease;
+    }
+    
+    .card-custom:hover .card-custom-image img {
+        transform: scale(1.5);
+    }
+
+.rounded-input {
+    border-radius: 8px; 
+  }
+  
+  .rounded-btn {
+    border-radius: 8px; 
+  }
+
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.social-icon {
+    animation: slideInFromLeft 0.7s ease-out forwards;
+  }
