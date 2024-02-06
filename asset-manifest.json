@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/mariachar.github.io/static/css/main.37c6c705.css",
-    "main.js": "/mariachar.github.io/static/js/main.1dc9e4f5.js",
-    "static/media/blog1.png": "/mariachar.github.io/static/media/blog1.4cd530d6cd9ea7a60655.png",
-    "static/media/easier.jpg": "/mariachar.github.io/static/media/easier.b1409dcadc3487c88f68.jpg",
-    "static/media/postgresql.png": "/mariachar.github.io/static/media/postgresql.e20228f7fb92f41cd4d2.png",
-    "static/media/result.gif": "/mariachar.github.io/static/media/result.2732c7750c555ca24c55.gif",
-    "static/media/cyberpunk.jpg": "/mariachar.github.io/static/media/cyberpunk.f3a3db7b8209fa6356ef.jpg",
-    "static/media/moi.jpg": "/mariachar.github.io/static/media/moi.add830d2682a429bde82.jpg",
-    "static/media/react.png": "/mariachar.github.io/static/media/react.0cf951a69d8e58f83f9d.png",
-    "static/media/html.png": "/mariachar.github.io/static/media/html.2ba4fabc69a89a8f71e6.png",
-    "static/media/tailwind.png": "/mariachar.github.io/static/media/tailwind.e47ac876b8d4d0bba47a.png",
-    "static/media/css.png": "/mariachar.github.io/static/media/css.69a82c2d9e45c933a9cb.png",
-    "static/media/javascript.png": "/mariachar.github.io/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
-    "index.html": "/mariachar.github.io/index.html",
-    "main.37c6c705.css.map": "/mariachar.github.io/static/css/main.37c6c705.css.map",
-    "main.1dc9e4f5.js.map": "/mariachar.github.io/static/js/main.1dc9e4f5.js.map"
+    "main.css": "/static/css/main.37c6c705.css",
+    "main.js": "/static/js/main.c6cb0452.js",
+    "static/media/blog1.png": "/static/media/blog1.4cd530d6cd9ea7a60655.png",
+    "static/media/easier.jpg": "/static/media/easier.b1409dcadc3487c88f68.jpg",
+    "static/media/postgresql.png": "/static/media/postgresql.e20228f7fb92f41cd4d2.png",
+    "static/media/result.gif": "/static/media/result.2732c7750c555ca24c55.gif",
+    "static/media/cyberpunk.jpg": "/static/media/cyberpunk.f3a3db7b8209fa6356ef.jpg",
+    "static/media/moi.jpg": "/static/media/moi.add830d2682a429bde82.jpg",
+    "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/html.png": "/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/index.html",
+    "main.37c6c705.css.map": "/static/css/main.37c6c705.css.map",
+    "main.c6cb0452.js.map": "/static/js/main.c6cb0452.js.map"
   },
   "entrypoints": [
     "static/css/main.37c6c705.css",
-    "static/js/main.1dc9e4f5.js"
+    "static/js/main.c6cb0452.js"
   ]
 }
