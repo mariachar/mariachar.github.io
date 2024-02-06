@@ -22,7 +22,7 @@ const BlogPost = ({ title, imageUrl, description, link }) => {
 
 const Blog = () => {
   return (
-    <div name='blog' className='w-full h-screen text-gray-200 bg-[#111111]'>
+    <div name='blog' className='w-full min-h-screen text-gray-200 bg-[#111111] p-12'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full md:justify-center gap-6'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 text-gray-200 border-[#800080]'>Blog</p>
