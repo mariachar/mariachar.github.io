@@ -12,7 +12,7 @@ const Contact = () => {
             <input className='bg-[#ebf3f7] p-2 rounded-input' type="text" placeholder='Name' name='name' />
             <input className='my-4 p-2 rounded-input bg-[#ebf3f7]' type="email" placeholder='Email' name='email' />
             <textarea className=' p-2 bg-[#ebf3f7] rounded-input' name="message" rows="10" placeholder='Message'></textarea>
-            <button className='text-white border-2 hover:bg-[#800080] hover:border-[#800080] px-10 py-3 my-8 mx-auto flex items-center rounded-lg'>Send</button>
+            <button className='text-white border-2 hover:bg-[#800080] hover:border-[#800080] px-10 py-3 my-8 mx-auto flex items-center rounded-md'>Send</button>
             <div>
               <p className='text-2xl text-gray-200 pb-8'> Or let's get social: </p>
               <ul className='flex flex-col md:flex-row md:justify-center gap-4'>

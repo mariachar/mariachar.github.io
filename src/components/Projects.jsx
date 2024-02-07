@@ -10,7 +10,7 @@ const Projects = () => {
             </div>
 
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4 '>
-                <div style={{backgroundImage: `url(${blog1})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                <div style={{backgroundImage: `url(${blog1})`}} className='shadow-lg shadow-[#040c16] group container flex justify-center items-center mx-auto content-div'>
                     <div className='opacity-0 group-hover:opacity-100'>
                     A blog made with Flask/Bootstrap/SQL
                         <span className='text-2xl font-bold text-white tracking-wider'></span>
