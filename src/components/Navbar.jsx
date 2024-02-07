@@ -50,23 +50,23 @@ export const Navbar = () => {
             {/* MOBILE MENU */}
             <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#111111] flex flex-col justify-center items-center' }>
                 <li className='py-4 text-2xl hover:text-[#800080]'>
-                <Link onClick={handleClick} to="home" smooth={true} offset={50} duration={500} >
+                <Link onClick={handleClick} to="home" smooth={true} offset={-50} duration={500} >
                     Home
                 </Link></li>
                 <li className='py-4 text-2xl hover:text-[#800080]'>
-                <Link onClick={handleClick} to="about" smooth={true} offset={50} duration={500} >
+                <Link onClick={handleClick} to="about" smooth={true} offset={-75} duration={500} >
                     About
                 </Link></li>
                 <li className='py-4 text-2xl hover:text-[#800080]'>
-                <Link onClick={handleClick} to="projects" smooth={true} offset={50} duration={500} >
+                <Link onClick={handleClick} to="projects" smooth={true} offset={-50} duration={500} >
                     Projects
                 </Link></li>
                 <li className='py-4 text-2xl hover:text-[#800080]'>
-                <Link onClick={handleClick} to="blog" smooth={true} offset={50} duration={500} >
+                <Link onClick={handleClick} to="blog" smooth={true} offset={-50} duration={500} >
                     Blog
                 </Link></li>
                 <li className='py-4 text-2xl hover:text-[#800080]'>
-                <Link onClick={handleClick} to="contact" smooth={true} offset={50} duration={500} >
+                <Link onClick={handleClick} to="contact" smooth={true} offset={-50} duration={500} >
                     Contact
                 </Link></li>
             </ul>

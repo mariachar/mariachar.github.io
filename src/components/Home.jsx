@@ -13,7 +13,7 @@ const Home = () => {
                 with all the things you can do with it. </p>
             <div>
             <button className='hidden lg:flex text-white group border-2 px-8 py-2 my-2 items-center ease-in-out fill-effect'>
-              <Link to="projects" spy={true} smooth={true} duration={500}>
+              <Link to="projects" spy={true} offset={-50} smooth={true} duration={500}>
                 Projects ➟
               </Link>
             </button>
