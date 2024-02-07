@@ -10,7 +10,7 @@ export const Navbar = () => {
     const handleClick = () => setNav(!nav)
 
     return (
-        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#111111] text-gray-200'>
+        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#111111] text-gray-200 z-50'>
             <div style={{marginLeft: '20px'}}>
                 <img src={result} alt="Welcome" style={{ width: '250px', marginTop: '40px' }} />
             </div>
@@ -20,23 +20,23 @@ export const Navbar = () => {
             <div className='hidden md:flex'>
                 <ul className='hidden md:flex text-lg'>
                     <li className='hover:text-[#800080]'>
-                    <Link to="home" smooth={true} offset={50} duration={500} >
+                    <Link to="home" smooth={true} offset={-50} duration={500} >
                         Home
                     </Link></li>
                     <li className='hover:text-[#800080]'>
-                    <Link to="about" smooth={true} offset={50} duration={500} >
+                    <Link to="about" smooth={true} offset={-75} duration={500} >
                         About
                     </Link></li>
                     <li className='hover:text-[#800080]'>
-                    <Link to="projects" smooth={true} offset={50} duration={500} >
+                    <Link to="projects" smooth={true} offset={-50} duration={500} >
                         Projects
                     </Link></li>
                     <li className='hover:text-[#800080]'>
-                    <Link to="blog" smooth={true} offset={50} duration={500} >
+                    <Link to="blog" smooth={true} offset={-50} duration={500} >
                         Blog
                     </Link></li>
                     <li className='hover:text-[#800080]'>
-                    <Link to="contact" smooth={true} offset={50} duration={500} >
+                    <Link to="contact" smooth={true} offset={-50} duration={500} >
                         Contact
                     </Link></li>
                 </ul>

@@ -12,13 +12,10 @@ const Home = () => {
                 <p className='text-purple-100 py-4 max-w-[700px] text-xl'> Currently I am dedicated in developing high-performing and eye-catching web apps. Also, I'm extremely passionate about programming and thrilled 
                 with all the things you can do with it. </p>
             <div>
-            <button className='hidden lg:flex text-white group border-2 px-6 py-2 my-2 items-center ease-in-out fill-effect'>
+            <button className='hidden lg:flex text-white group border-2 px-8 py-2 my-2 items-center ease-in-out fill-effect'>
               <Link to="projects" spy={true} smooth={true} duration={500}>
-                Projects
-                <span className='group-hover:rotate-360 duration-300'> 
-                    <HiArrowNarrowRight className='ml-3' />
-                </span>
-                </Link>
+                Projects ➟
+              </Link>
             </button>
             </div>
         </div>
