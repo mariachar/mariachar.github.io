@@ -16,17 +16,17 @@ const Contact = () => {
             <div>
               <p className='text-2xl text-gray-200 pb-8'> Or let's get social: </p>
               <ul className='flex flex-col md:flex-row md:justify-center gap-4'>
-                    <li className='w-[200px] h-[60px] flex justify-between items-center mb-[10px] hover:scale-105 duration-300 bg-[#0072b1]'>
+                    <li className='w-[200px] h-[60px] flex justify-between items-center rounded-sm mb-[10px] hover:scale-105 duration-300 bg-[#0072b1]'>
                         <a className='flex justify-between items-center w-full text-gray-200' href="https://www.linkedin.com/in/maria-charalampidou23/" target="_blank">
                             LinkedIn <FaLinkedin size={30} />
                         </a>
                     </li>
-                    <li className='w-[200px] h-[60px] flex justify-between items-center mb-[10px] hover:scale-105 duration-300 bg-[#4267B2]'>
+                    <li className='w-[200px] h-[60px] flex justify-between items-center rounded-sm mb-[10px] hover:scale-105 duration-300 bg-[#4267B2]'>
                         <a className='flex justify-between items-center w-full text-gray-200' href="https://www.facebook.com/maria.xaralampidou.9" target="_blank">
                             Facebook<FaFacebook size={30} />
                         </a>
                     </li>
-                    <li className='w-[200px] h-[60px] flex justify-between items-center mb-[10px] hover:scale-105 duration-300 bg-[#333333]'>
+                    <li className='w-[200px] h-[60px] flex justify-between rounded-sm items-center mb-[10px] hover:scale-105 duration-300 bg-[#333333]'>
                         <a className='flex justify-between items-center w-full text-gray-200' href="https://github.com/mariachar" target="_blank">
                             GitHub <FaGithub size={30} />
                         </a>

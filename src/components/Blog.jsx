@@ -4,7 +4,7 @@ import cyberpunk from "../asset/cyberpunk.jpg";
 
 const BlogPost = ({ title, imageUrl, description, link }) => {
   return (
-    <div className='shadow-lg shadow-[#040c16] group container rounded-md flex flex-col justify-center items-center mx-auto content-div mb-8 relative'>
+    <div className='shadow-lg shadow-[#040c16] group container rounded-md flex flex-col justify-center items-center mx-auto content-div mb-8 relative' style={{padding: '0 15px', boxSizing: 'border-box'}}>
       <h3 className='text-xl font-bold '>{title}</h3>
       <div style={{ backgroundImage: `url(${imageUrl})`, height: '200px', backgroundSize: 'cover' }} className='mb-4 w-full' />
       <div className='opacity-0 group-hover:opacity-100 text-center font-bold bg-[#1a1a1a] p-4 rounded-md flex flex-col items-center justify-center absolute top-0 left-0 w-full h-full'>

@@ -36,8 +36,8 @@ const About = () => {
             </div>
             <br />
             <div className='bg-[#111111]'>
-                <h3 className='text-2xl text-[#979aaa] mx-auto'> Current languages and tools:</h3>
-                <div className='flex items-center md:grid-cols-4 lg:grid-cols-8 justify-around py-4'>
+                <h3 className='text-2xl text-[#979aaa] mx-auto text-center sm:text-left py-4'> Current languages and tools:</h3>
+                <div className='grid grid-cols-4 md:grid-cols-8 justify-items-center py-4'>
                 <img src={python} alt="Python Icon" style={{ width: '50px', marginTop: '30px' }}  />
                 <img src={javascript} alt="Javascript Icon" style={{ width: '50px', marginTop: '30px' }}  />
                 <img src={html} alt="HTML Icon" style={{ width: '50px', marginTop: '30px' }}  />
