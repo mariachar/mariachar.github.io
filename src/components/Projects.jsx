@@ -1,5 +1,7 @@
 import React from 'react'
 import blog1 from '../asset/blog1.png'
+import trooper from '../asset/trooper.jpg'
+import nobel from '../asset/nobel.jpg'
 
 const Projects = () => {
   return (
@@ -10,8 +12,8 @@ const Projects = () => {
             </div>
 
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4 '>
-                <div style={{backgroundImage: `url(${blog1})`}} className='shadow-lg shadow-[#040c16] group container rounded-sm flex justify-center items-center mx-auto content-div'>
-                    <div className='opacity-0 group-hover:opacity-100'>
+                <div style={{backgroundImage: `url(${blog1})`}} className='shadow-lg shadow-[#040c16] group container rounded flex justify-center items-center mx-auto content-div'>
+                    <div className='opacity-0 group-hover:opacity-100 font-semibold'>
                     A blog made with Flask/Bootstrap/SQL
                         <span className='text-2xl font-bold text-white tracking-wider'></span>
                         <div className='pt-8 text-center'>
@@ -24,6 +26,29 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
+                <div style={{backgroundImage: `url(${nobel})`}} className='shadow-lg shadow-[#040c16] group container rounded flex justify-center items-center mx-auto content-div'>
+                    <div className='opacity-0 group-hover:opacity-100 pl-5 font-semibold'>
+                    This project aims to do a data analysis on the Nobel Prize Winners over the years, with Pandas/Matplotlib/NumPy. 
+                        <span className='text-2xl font-bold text-white tracking-wider'></span>
+                        <div className='pt-8 text-center'>
+                            <a href="https://github.com/mariachar/data_analysis_projects/blob/main/Nobel_Prize_Analysis.ipynb" target="_blank">
+                                <button className='text-center  border-2 hover:border-[#42337d] rounded-lg w-32 h-10 bg-white text-[#800080] text-lg'>Visit</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div style={{backgroundImage: `url(${trooper})`}} className='shadow-lg shadow-[#040c16] group container rounded flex justify-center items-center mx-auto content-div'>
+                    <div className='opacity-0 group-hover:opacity-100 pl-5 font-semibold'>
+                    This project aims to do a data analysis on Lego dataset, providing insights into the number of sets, themes, and parts per set, with Pandas/Matplotlib/NumPy. 
+                        <span className='text-2xl font-bold text-white tracking-wider'></span>
+                        <div className='pt-8 text-center'>
+                            <a href="https://github.com/mariachar/data_analysis_projects/blob/main/Lego_Analysis.ipynb" target="_blank">
+                                <button className='text-center  border-2 hover:border-[#42337d] rounded-lg w-32 h-10 bg-white text-[#800080] text-lg'>Visit</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </div>
