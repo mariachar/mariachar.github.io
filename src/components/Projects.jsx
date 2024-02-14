@@ -5,8 +5,8 @@ import nobel from '../asset/nobel.jpg'
 
 const Projects = () => {
   return (
-    <div name='projects' className='w-full min-h-screen text-gray-200 bg-[#111111] p-12'>
-        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+    <div name='projects' className='w-full min-h-screen text-gray-200 bg-[#111111] p-4 sm:p-12'>
+        <div className='max-w-[1000px] mx-auto p-2 sm:p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 text-gray-200 border-[#800080]'>Projects</p>
             </div>

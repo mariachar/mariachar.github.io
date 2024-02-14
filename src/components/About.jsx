@@ -13,20 +13,20 @@ const About = () => {
   return (
     <div name='about' className='w-full min-h-screen bg-[#111111] text-gray-200'>
         <div className='flex flex-col justify-center items-center w-full h-full'>
-            <div className='max-w-[1000px] w-full x-4 grid grid-cols-2 gap-8'>
+            <div className='max-w-[1000px] w-full mx-auto x-4 grid grid-cols-2 gap-8'>
                 <div className='sm:text-right pb-8 pl-4'>
                     <p className='text-4xl font-bold inline border-b-4 border-[#800080]'>About</p>
                 </div>
                 <div></div>
                 </div>
-            <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-                <img src={moi} alt="My Photo" className="sm:float-right float-left w-150 mt-12" style={{ width: '250px'}} />    
-            <div className='sm:text-right text-4xl font-bold'>
+            <div className='max-w-[1000px] mx-auto w-full grid sm:grid-cols-2 gap-8 px-4'>
+                <img src={moi} alt="My Photo" className="mx-auto sm:float-right float-left w-150 mt-12" style={{ width: '250px'}} />    
+            <div className='text-center sm:text-right text-4xl font-bold'>
                     
                 <h4>Hello, I'm Maria. <br /> Nice to meet you!</h4>
             </div>
-            <div>
-                <h4 className='text-2xl text-[#979aaa]'>Please let me introduce myself.</h4>
+            <div className='text-center sm:text-left' style={{ textAlign: 'justify' }}>
+                <h4 className='text-center sm:text-left text-2xl text-[#979aaa]'>Please let me introduce myself.</h4>
                 <br />
                 <p className='text-xl'> I live in Thessaloniki, GR. I am a Philosophy graduate with an MA in Philosophy and Ethics from Aristotle 
                 University of Thessaloniki and a self-taught developer. My expertise lies in utilizing Python frameworks such as Flask and Django for robust backend development, ensuring scalable 
