@@ -2,6 +2,7 @@ import React from 'react'
 import blog1 from '../asset/blog1.png'
 import trooper from '../asset/trooper.jpg'
 import nobel from '../asset/nobel.jpg'
+import crm from '../asset/crm.png'
 
 const Projects = () => {
   return (
@@ -14,13 +15,27 @@ const Projects = () => {
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4 '>
                 <div style={{backgroundImage: `url(${blog1})`}} className='shadow-lg shadow-[#040c16] group container rounded flex justify-center items-center mx-auto content-div'>
                     <div className='opacity-0 group-hover:opacity-100 font-semibold'>
-                    A blog made with Flask/Bootstrap/SQL
+                    A blog made with Flask/Bootstrap/SQL.
                         <span className='text-2xl font-bold text-white tracking-wider'></span>
                         <div className='pt-8 text-center'>
                             <a href="https://whoami-blog.onrender.com/" target="_blank">
                                 <button className='text-center border-2 hover:border-[#42337d] rounded-lg px-4 py-3 m-2 bg-white text-[#800080] text-lg'>Visit</button>
                             </a>
                             <a href="https://github.com/mariachar/whoami-flask-blog" target="_blank">
+                                <button className='text-center border-2 hover:border-[#42337d] rounded-lg px-4 py-3 m-2 bg-white text-[#5383d0] text-lg'>Code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div style={{backgroundImage: `url(${crm})`}} className='shadow-lg shadow-[#040c16] group container rounded flex justify-center items-center mx-auto content-div'>
+                    <div className='opacity-0 group-hover:opacity-100 pl-5 font-semibold'>
+                    Still in production...<br/>A CRM web application with Django, BootStrap and SQL.
+                        <span className='text-2xl font-bold text-white tracking-wider'></span>
+                        <div className='pt-8 text-center'>
+                            <a href="https://django-crm-5zuv.onrender.com/" target="_blank">
+                                <button className='text-center border-2 hover:border-[#42337d] rounded-lg px-4 py-3 m-2 bg-white text-[#800080] text-lg'>Visit</button>
+                            </a>
+                            <a href="https://github.com/mariachar/Django_CRM" target="_blank">
                                 <button className='text-center border-2 hover:border-[#42337d] rounded-lg px-4 py-3 m-2 bg-white text-[#5383d0] text-lg'>Code</button>
                             </a>
                         </div>
@@ -48,6 +63,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
+                
                 
             </div>
         </div>
