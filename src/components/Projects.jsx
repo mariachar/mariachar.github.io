@@ -32,9 +32,6 @@ const Projects = () => {
                     Still in production...<br/>A CRM web application with Django, BootStrap and SQL.
                         <span className='text-2xl font-bold text-white tracking-wider'></span>
                         <div className='pt-8 text-center'>
-                            <a href="https://django-crm-5zuv.onrender.com/" target="_blank">
-                                <button className='text-center border-2 hover:border-[#42337d] rounded-lg px-4 py-3 m-2 bg-white text-[#800080] text-lg'>Visit</button>
-                            </a>
                             <a href="https://github.com/mariachar/Django_CRM" target="_blank">
                                 <button className='text-center border-2 hover:border-[#42337d] rounded-lg px-4 py-3 m-2 bg-white text-[#5383d0] text-lg'>Code</button>
                             </a>
