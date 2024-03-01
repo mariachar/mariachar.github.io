@@ -20,10 +20,11 @@ const About = () => {
                 <div></div>
                 </div>
             <div className='max-w-[1000px] mx-auto w-full grid sm:grid-cols-2 gap-8 px-4'>
-                <img src={moi} alt="My Photo" className="mx-auto sm:float-right float-left w-150 mt-12" style={{ width: '250px'}} />    
+                    
             <div className='text-center sm:text-right text-4xl font-bold'>
                     
                 <h4>Hello, I'm Maria. <br /> Nice to meet you!</h4>
+                <img src={moi} alt="My Photo" className="mx-auto sm:float-right w-150 mt-12" style={{ width: '250px'}} />
             </div>
             <div className='text-center sm:text-left' style={{ textAlign: 'justify' }}>
                 <h4 className='text-center sm:text-left text-2xl text-[#979aaa]'>Please let me introduce myself.</h4>
