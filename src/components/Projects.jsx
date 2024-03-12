@@ -6,6 +6,8 @@ import crm from '../asset/crm.png'
 import permissions from '../asset/permissions.png'
 import sql from '../asset/sql.png'
 import risks from '../asset/risks.png'
+import report from '../asset/report.png'
+
 
 
 const Projects = () => {
@@ -28,7 +30,7 @@ const Projects = () => {
                                    <a href="https://whoami-blog.onrender.com/" target="_blank">
                                        <button className='text-center border-2 hover:border-[#42337d] rounded-lg px-4 py-3 m-2 bg-white text-[#800080] text-lg'>Visit</button>
                                    </a>
-                                  <a href="https://github.com/mariachar/whoami-flask-blog" target="_blank">
+                                    <a href="https://github.com/mariachar/whoami-flask-blog" target="_blank">
                                        <button className='text-center border-2 hover:border-[#42337d] rounded-lg px-4 py-3 m-2 bg-white text-[#5383d0] text-lg'>Code</button>
                                    </a>
                                </div>
@@ -80,7 +82,6 @@ const Projects = () => {
               </div>
   
               {/* Cybersecurity Projects */}
-              {/* Cybersecurity Projects */}
                 <div className='pt-12'>
                     <p className='text-2xl font-bold text-gray-200 mb-4'>Cybersecurity Projects</p>
                     <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
@@ -113,6 +114,20 @@ const Projects = () => {
                                     <div className='pt-8 text-center'>
                                         <a href="https://docs.google.com/document/d/1CCaKkn3JWKQvVoJW37dcoZr98k4CEC00FOZL_JsSfE8/edit?usp=sharing" target="_blank">
                                             <button className='text-center  border-2 hover:border-[#42337d] rounded-lg w-32 h-10 bg-white text-[#800080] text-lg'>Visit</button>
+                                        </a>
+                                    </div>
+                            </div>
+                        </div>
+
+                        <div style={{backgroundImage: `url(${report})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                            <div className='opacity-0 group-hover:opacity-100 pl-5 font-semibold'>
+                                Security Incident Report (as part of a training exercise for Google's Cybersecurity Certificate)
+                                    <div className='pt-8 text-center'>
+                                        <a href="https://docs.google.com/document/d/1LPL9MWaINeHT21najibnTz12Wheje7bRofv7s15BBBI/edit?usp=sharing" target="_blank">
+                                            <button className='text-center  border-2 hover:border-[#42337d] rounded-lg w-32 h-10 bg-white text-[#800080] text-lg mr-4'>Alert Ticket</button>
+                                        </a>
+                                        <a href="https://docs.google.com/document/d/1XSnz3NUjfa6ZgN8P1cbQr1L2vemzZchuOlcWWcM0qvM/edit?usp=sharing&resourcekey=0-kfe-knik6nKaxdI-GYC8Uw" target="_blank">
+                                            <button className='text-center  border-2 hover:border-[#42337d] rounded-lg w-32 h-10 bg-white text-[#800080] text-lg mr-4'>Final Report</button>
                                         </a>
                                     </div>
                             </div>
