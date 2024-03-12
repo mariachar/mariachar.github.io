@@ -84,7 +84,7 @@ const Projects = () => {
               {/* Cybersecurity Projects */}
                 <div className='pt-12'>
                     <p className='text-2xl font-bold text-gray-200 mb-4'>Cybersecurity Projects</p>
-                    <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+                    <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4 pt-4'>
                         
                         <div style={{backgroundImage: `url(${permissions})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                             <div className='opacity-0 group-hover:opacity-100 pl-5 font-semibold'>
