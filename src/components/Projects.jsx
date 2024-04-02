@@ -7,6 +7,7 @@ import permissions from '../asset/permissions.png'
 import sql from '../asset/sql.png'
 import risks from '../asset/risks.png'
 import report from '../asset/report.png'
+import pentest from '../asset/pentest.png'
 
 
 
@@ -128,6 +129,17 @@ const Projects = () => {
                                         </a>
                                         <a href="https://docs.google.com/document/d/1XSnz3NUjfa6ZgN8P1cbQr1L2vemzZchuOlcWWcM0qvM/edit?usp=sharing&resourcekey=0-kfe-knik6nKaxdI-GYC8Uw" target="_blank">
                                             <button className='text-center  border-2 hover:border-[#42337d] rounded-lg w-32 h-10 bg-white text-[#800080] text-lg mr-4'>Final Report</button>
+                                        </a>
+                                    </div>
+                            </div>
+                        </div>
+
+                        <div style={{backgroundImage: `url(${pentest})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                            <div className='opacity-0 group-hover:opacity-100 pl-5 font-semibold'>
+                                Penetration Testing Report (part of training activities for Coursera's Cybersecurity Projects)
+                                    <div className='pt-8 text-center'>
+                                        <a href="https://docs.google.com/document/d/1yslJatI5Cdp-aFXc5QgDc9GVyDf5dUAvUo6IadjwIRg/edit?usp=sharing" target="_blank">
+                                            <button className='text-center  border-2 hover:border-[#42337d] rounded-lg w-32 h-10 bg-white text-[#800080] text-lg mr-4'> Visit </button>
                                         </a>
                                     </div>
                             </div>
