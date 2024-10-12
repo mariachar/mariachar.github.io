@@ -7,7 +7,7 @@ import css from '../asset/css.png';
 import tailwind from '../asset/tailwind.png';
 import postgresql from '../asset/postgresql.png';
 import git from '../asset/git.png';
-import moi from '../asset/moi.jpg'
+import moi from '../asset/moi.jpg';
 
 const About = () => {
   return (
@@ -29,11 +29,11 @@ const About = () => {
             <div className='text-center sm:text-left' style={{ textAlign: 'justify' }}>
                 <h4 className='text-center sm:text-left text-2xl text-[#979aaa]'>Please let me introduce myself.</h4>
                 <br />
-                <p className='text-xl'> I live in Thessaloniki, GR. I am a Philosophy graduate with an MA in Philosophy and Ethics from Aristotle 
-                University of Thessaloniki and a self-taught developer. My expertise lies in utilizing Python frameworks such as Flask and Django for robust backend development, ensuring scalable 
-                and efficient server-side solutions. On the frontend, I bring ideas to life mainly by using the trifecta of JavaScript (and its fascinating frameworks), HTML, and CSS, 
-                creating intuitive and visually appealing user interfaces. Also, I am excited about embracing the latest technologies 
-                to push the boundaries of what's possible in web development.</p>
+                <p className='text-xl'> I live in Thessaloniki, GR. As a Security Operations Analyst and a self-taught developer adept in various 
+                programming languages, I am equipped with a passion for Cybersecurity and a solid knowledge of Python. I have made the transition from
+                my background in Philosophy, where I earned an MA in Philosophy and Ethics from Aristotle University of Thessaloniki and I am thrilled
+                to leverage my strong analytical and ethical background, eager to embrace new challenges and make a meaningful impact to the ever-evolving
+                world of technology.</p>
             </div>
             <br />
             <div className='bg-[#111111]'>
